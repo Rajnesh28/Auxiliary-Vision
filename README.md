@@ -1,8 +1,24 @@
 # StormHacks2022
-PDF to JPEG Conversion instructions:
-    1. Make sure pip is working
-    2. Install pdf2image: "pip install pdf2image"
-    3. Install poppler: Will be added as a folder to repository copy it to C:\Program Files
-    4.Add C:\Program Files\poppler-0.68.0_x86\bin to your system PATH by doing the following: Click on the Windows start button, search for Edit the system environment variables, click on Environment Variables..., under System variables, look for and double-click on PATH, click on New, then add C:\Users\Program Files\poppler-0.68.0_x86\bin, click OK.
-    5. Done.
+
+**Overview:**
+
+Our app aims to help support the millions of people around the globe with visual impairments using computer vision, machine learning APIs from Google Cloud Providers. Using a FAST API web app framework, we take our naturally simplistic user interface, and connect photos taken from the smartphone, to our python backend to process and provide the user with TTS characteristics of the image.
+
+As of now, we are able to analyze
+- Objects in images
+- Text in images
+
+Also, to help support students with accessibility issues to learning, they can upload a pdf file and it can be read out loud.
+
+Our tech stack include: 
+
+- Python
+
+    Libraries:
+
+    - Google Cloud Vision Library
+    - Poppler
+    - PDF2Image
     
+- FastAPI
+- Android Development Studio
