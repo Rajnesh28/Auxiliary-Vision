@@ -39,7 +39,10 @@ class LabelProcessing(BaseProcessing):
         for label in items:
            labels.append(label.description)
 
+        labels.pop(0)
+
         return labels
+        
 
 
 
