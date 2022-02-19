@@ -10,7 +10,7 @@ As of now, we are able to analyze
 
 Also, to help support students with accessibility issues to learning, they can upload a pdf file and it can be read out loud.
 
-Our tech stack include: 
+**Tech Stack:**
 
 - Python
 
@@ -22,3 +22,9 @@ Our tech stack include:
     
 - FastAPI
 - Android Development Studio
+
+**Demonstration:**
+
+To learn and watch more on this app, and its functionality, click on the YouTube link below.
+
+**Resources:**
