@@ -27,4 +27,4 @@ As of now, we are able to analyze in the back-end
 
 Aiming to connect the current back end python server with the front end React Native app.
 
-![Logo](/images/ReactAppLogo.png)
+![Logo](ReactAppLogo.png)
