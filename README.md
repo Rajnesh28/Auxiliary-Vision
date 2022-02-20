@@ -20,7 +20,7 @@ Also, to help support students with accessibility issues to learning, they can u
     - Poppler PDF Rendering library
 
 - Flask
-- React Native (JaveScript)
+- React Native (JavaScript)
 
 **Demonstration:**
 
