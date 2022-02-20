@@ -7,6 +7,12 @@ class ttsObject():
         os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "M:\StormHacks2022\Back-End\stormhacks2022-341808-d6fa85e1221a.json"
         self.client = tts.TextToSpeechClient()
 
+    """
+    This method finds a json file with the list of strings to be spoken, 
+    and then the Text-to-Speech API is used to verbalize the strings for the
+    user through a MP3 audio file. 
+
+    """
     def runTTS(self):
 
         parent = os.path.dirname(os.getcwd())
