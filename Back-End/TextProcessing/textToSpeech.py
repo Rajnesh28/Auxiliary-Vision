@@ -9,7 +9,6 @@ class ttsObject():
 
     def runTTS(self):
 
-
         parent = os.path.dirname(os.getcwd())
         os.chdir('media/json')
         file_name = 'text.json'

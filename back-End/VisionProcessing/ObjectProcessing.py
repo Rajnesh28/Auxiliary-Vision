@@ -49,3 +49,6 @@ class ObjectProcessing(BaseProcessing):
         os.chdir("json")
         with open(json_file, 'w') as f:
             json.dump(objects, f)
+
+obj = ObjectProcessing("default")
+obj.object_processing("default")

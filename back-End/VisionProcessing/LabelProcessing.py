@@ -49,3 +49,7 @@ class LabelProcessing(BaseProcessing):
         os.chdir("json")
         with open(json_file, 'w') as f:
             json.dump(labels, f)
+
+
+obj = LabelProcessing("default")
+obj.label_processing("default")
