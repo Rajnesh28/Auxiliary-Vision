@@ -2,7 +2,7 @@
 
 **Overview:**
 
-Our app aims to help support the millions of people around the globe with visual impairments using computer vision, machine learning APIs from Google Cloud Providers. Using a FAST API web app framework, we take our naturally simplistic user interface, and connect photos taken from the smartphone, to our python backend to process and provide the user with TTS characteristics of the image.
+Our app aims to help support the millions of people around the globe with visual impairments using computer vision, machine learning APIs from Google Cloud Providers. Using a Flask framework, we take our naturally simplistic user interface, and connect photos taken from the smartphone, to our python backend to process and provide the user with TTS characteristics of the image.
 
 As of now, we are able to analyze
 - Objects in images
