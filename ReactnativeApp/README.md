@@ -1,6 +1,6 @@
 # VisionML
 
-React-Native application using the expo-camera. Built to impliment and demonstrate Machine Learning and text-to-speech APIs.
+React-Native application using the expo-camera. Built to implement and demonstrate Machine Learning and text-to-speech APIs.
 
 To run an instance of the app on your local machine,
 - Install yarn: 
