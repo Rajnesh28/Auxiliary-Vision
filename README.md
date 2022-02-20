@@ -22,8 +22,6 @@ Also, to help support students with accessibility issues to learning, they can u
 - Flask
 - React Native (JavaScript)
 
-**Demonstration:**
+**Plan Forward:**
 
-To learn and watch more on this app, and its functionality, click on the YouTube link below.
-
-**Resources:**
+Aiming to connect the current back end python server, with the front end React Native app.
