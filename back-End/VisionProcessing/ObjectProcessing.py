@@ -1,5 +1,6 @@
 import os 
 import io
+import json
 from pathlib import Path
 
 from google.cloud import vision
@@ -26,7 +27,7 @@ class ObjectProcessing(BaseProcessing):
         os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'M:\StormHacks2022\Back-End\stormhacks2022-341808-d6fa85e1221a.json'
         client = vision.ImageAnnotatorClient()
 
-        os.chdir('photos')
+        os.chdir('media/photos')
         file_name = os.path.relpath(f"{images}.jpg")
 
         with io.open(file_name, 'rb') as image_file:
@@ -41,4 +42,10 @@ class ObjectProcessing(BaseProcessing):
         for object in items:
            objects.append(object.name)
 
-        return objects
+        json_file = 'text.json'
+
+        parent = os.path.dirname(os.getcwd())
+        os.chdir(parent)
+        os.chdir("json")
+        with open(json_file, 'w') as f:
+            json.dump(objects, f)
