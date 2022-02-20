@@ -10,7 +10,7 @@ class ttsObject():
     def runTTS(self):
 
         parent = os.path.dirname(os.getcwd())
-        os.chdir('media/json')
+        os.chdir('M:\StormHacks2022\media\json')
         file_name = 'text.json'
 
         with open(file_name) as f:

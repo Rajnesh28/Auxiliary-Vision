@@ -26,7 +26,7 @@ class LabelProcessing(BaseProcessing):
         os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'M:\StormHacks2022\Back-End\stormhacks2022-341808-d6fa85e1221a.json'
         client = vision.ImageAnnotatorClient()
 
-        os.chdir('media/photos')
+        os.chdir('M:\StormHacks2022\media\photos')
         file_name = os.path.relpath(f"{images}.jpg")
 
         with io.open(file_name, 'rb') as image_file:
