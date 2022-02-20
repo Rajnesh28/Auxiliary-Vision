@@ -12,15 +12,14 @@ Also, to help support students with accessibility issues to learning, they can u
 
 **Tech Stack:**
 
+- Google Cloud Vision API
 - Python
 
     Libraries:
-
-    - Google Cloud Vision Library
-    - Poppler
     - PDF2Image
-    
-- FastAPI
+    - Poppler PDF Rendering library
+
+- Flask
 - Android Development Studio
 
 **Demonstration:**
